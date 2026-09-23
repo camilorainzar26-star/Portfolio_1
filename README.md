@@ -4,9 +4,11 @@ Personal portfolio site for **Camilo Daza Rainzar**, Full-Stack & AI/ML Engineer
 
 ## Live site
 
-Published with **GitHub Pages** (free):
+Free hosting via **GitHub Pages** (no domain purchase needed):
 
 **https://camilorainzar26-star.github.io/Portfolio_1/**
+
+Enable Pages once: repo **Settings → Pages → Source: GitHub Actions**.
 
 ## Local preview
 

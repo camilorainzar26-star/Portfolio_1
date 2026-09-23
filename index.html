@@ -22,26 +22,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Sora:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230c1210'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='16' fill='%23c8f082'%3ECD%3C/text%3E%3C/svg%3E" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231a3324'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='14' fill='%23e8f2d8'%3ECD%3C/text%3E%3C/svg%3E"
+    />
   </head>
   <body>
-    <div class="noise" aria-hidden="true"></div>
-    <div class="glow glow-a" aria-hidden="true"></div>
-    <div class="glow glow-b" aria-hidden="true"></div>
-
     <header class="site-header">
-      <a class="logo" href="#top">CDR</a>
+      <a class="logo" href="#top">Camilo Daza Rainzar</a>
       <nav class="nav" aria-label="Primary">
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="nav-cta" href="mailto:camilodaza201862@gmail.com">Email</a>
+      <a class="nav-cta" href="mailto:camilodaza201862@gmail.com">Write</a>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span>
       </button>
@@ -55,39 +54,27 @@
       <a href="#contact">Contact</a>
     </div>
 
-    <main id="top">
-      <section class="hero">
-        <div class="hero-grid" aria-hidden="true"></div>
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1531761535209-180857e93c53?auto=format&fit=crop&w=2400&q=80"
+            alt=""
+          />
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
         <div class="hero-content">
-          <p class="hero-label reveal">Full-Stack &amp; AI/ML Engineer · Bucaramanga, Colombia</p>
-          <h1 class="hero-name reveal">
-            <span>Camilo</span>
-            <span>Daza</span>
-            <span class="accent">Rainzar</span>
-          </h1>
-          <p class="hero-lead reveal">
-            I design scalable web systems and AI-powered products — semantic search,
-            recommendation engines, and cloud infrastructure that teams can ship with confidence.
+          <h1 class="brand">Camilo Daza Rainzar</h1>
+          <p class="hero-line">Full-Stack and AI/ML systems, built to ship.</p>
+          <p class="hero-support">
+            Semantic search, recommendation engines, and cloud platforms for teams that need
+            reliable, data-driven products.
           </p>
-          <div class="hero-actions reveal">
-            <a class="btn btn-primary" href="#projects">View selected work</a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Selected work</a>
             <a class="btn btn-ghost" href="#contact">Get in touch</a>
           </div>
         </div>
-        <aside class="hero-panel reveal" aria-label="Quick facts">
-          <div class="panel-line">
-            <span class="panel-k">Focus</span>
-            <span class="panel-v">AI systems · Full-stack platforms · Cloud automation</span>
-          </div>
-          <div class="panel-line">
-            <span class="panel-k">Stack pulse</span>
-            <span class="panel-v">Python · TypeScript · Java · AWS · Kubernetes</span>
-          </div>
-          <div class="panel-line">
-            <span class="panel-k">Based</span>
-            <span class="panel-v">Colombia · Remote-ready</span>
-          </div>
-        </aside>
       </section>
 
       <section class="section about" id="about">
@@ -110,11 +97,11 @@
             </li>
             <li>
               <strong>30%</strong>
-              <span>search relevance gains via vector DBs</span>
+              <span>search relevance gains via vector databases</span>
             </li>
             <li>
               <strong>40%</strong>
-              <span>faster deploys with Terraform &amp; Ansible</span>
+              <span>faster deploys with Terraform and Ansible</span>
             </li>
           </ul>
         </div>
@@ -224,8 +211,8 @@
             <div class="project-body">
               <h3>AI-powered semantic search console</h3>
               <p>
-                End-to-end search experience with vector databases for relevance — FastAPI and
-                Nest.js services, TypeScript clients, and Django admin tooling.
+                End-to-end search with vector databases for relevance — FastAPI and Nest.js
+                services, TypeScript clients, and Django admin tooling.
               </p>
               <p class="tags">Python · FastAPI · TypeScript · Django · Nest.js · Vector DBs</p>
             </div>
@@ -235,8 +222,8 @@
             <div class="project-body">
               <h3>Full-stack AI dashboards</h3>
               <p>
-                Monitoring surfaces for model outputs, system health, and user analytics —
-                React/Next.js frontends with Node and Spring Boot services on AWS.
+                Surfaces for model outputs, system health, and user analytics — React/Next.js
+                frontends with Node and Spring Boot services on AWS.
               </p>
               <p class="tags">React · Next.js · Node.js · Spring Boot · PostgreSQL · AWS</p>
             </div>
@@ -276,7 +263,7 @@
             <h3>Architecture</h3>
             <ul>
               <li>Microservices architecture</li>
-              <li>API design &amp; orchestration</li>
+              <li>API design and orchestration</li>
               <li>Container orchestration</li>
               <li>Infrastructure as Code</li>
             </ul>
@@ -286,12 +273,12 @@
             <ul>
               <li>Semantic search</li>
               <li>Recommendation engines</li>
-              <li>Model deployment &amp; interpretability</li>
+              <li>Model deployment and interpretability</li>
               <li>ML pipeline development</li>
             </ul>
           </div>
           <div class="skill-group reveal">
-            <h3>Data &amp; Cloud</h3>
+            <h3>Data and cloud</h3>
             <ul>
               <li>Real-time data processing</li>
               <li>Data pipeline engineering</li>
@@ -304,8 +291,8 @@
             <ul>
               <li>Scalable frontend frameworks</li>
               <li>Backend service development</li>
-              <li>Dashboards &amp; visualization</li>
-              <li>Auth protocols · Testing · Mentorship</li>
+              <li>Dashboards and visualization</li>
+              <li>Auth, testing, and mentorship</li>
             </ul>
           </div>
         </div>
